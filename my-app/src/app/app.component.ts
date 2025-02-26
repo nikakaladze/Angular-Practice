@@ -11,6 +11,10 @@ import { ChildComponent } from "./child/child.component";
 export class AppComponent implements OnInit, OnDestroy{
 title:string = 'fomi';
 count:number = 0;
+  public increament():void{
+    this.count++;
+    
+  }
 
   messages:string[] = ['first','second'];
 
