@@ -1,0 +1,20 @@
+ div {
+     transition: background 500ms ease;
+ }
+
+ .square-red {
+     width: 100px;
+     height: 100px;
+     background: red;
+ }
+
+ .square-blue {
+     width: 100px;
+     height: 100px;
+     background: blue;
+ }
+
+ img{
+    width: 200px;
+    height: 200px;
+ }
