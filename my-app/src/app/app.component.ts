@@ -32,6 +32,10 @@ export class AppComponent implements OnInit, OnDestroy {
   };
   btnDisabled = true;
   squareClass = 'square-red';
+  myBgColor = 'red';
+  myColor = "white";
+
+
 
   changeSquare(): void {
     this.squareClass =

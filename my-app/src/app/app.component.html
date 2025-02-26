@@ -1,12 +1,14 @@
 <router-outlet></router-outlet>
 <app-child [message]="messages[0]"></app-child>
-<h1>{{title}}</h1>
-<p>{{count}}</p>
+<h1>{{ title }}</h1>
+<p>{{ count }}</p>
 <button (click)="increament()">increase +</button>
 <button (click)="deacriment()">deacrise -</button>
 
-<img [src]="imgData.src" [alt]="imgData.alt">
+<img [src]="imgData.src" [alt]="imgData.alt" />
 <button [disabled]="btnDisabled">click Me</button>
-<hr>
+<hr />
 <div [class]="squareClass"></div>
-<button (click)="changeSquare()">changeColor</button>
+<button (click)="changeSquare()" [style.background]="myBgColor" [style.color]="myColor">
+  changeColor
+</button>
