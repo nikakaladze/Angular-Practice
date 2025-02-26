@@ -13,7 +13,11 @@ title:string = 'fomi';
 count:number = 0;
   public increament():void{
     this.count++;
-    
+
+  }
+  public deacriment():void{
+    this.count -=1;
+
   }
 
   messages:string[] = ['first','second'];
